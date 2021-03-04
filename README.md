@@ -7,4 +7,7 @@
 # Data:
 ### CSV table of almost 15,000 us zipcodes and their median home prices from 1996-2018
 ### Each zipcode contains, in addition to historical prices: it's city, state, metro area, county, and size rank 
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/data_over.png" width="200" height="350">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/data_over.png" width="400" height="220">
+
+# EDA
+### I started 
