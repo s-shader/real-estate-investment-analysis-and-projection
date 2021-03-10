@@ -45,11 +45,11 @@
 
 # Final Models 
 ### Using the autoSARIMA model I predicted the price of homes in each zip code 18 months out.
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/exemple_acf/73128-fin.png" width="500" height="800">
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/exemple_acf/47220-fin.png" width="500" height="800">
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/exemple_acf/47281-fin.png" width="500" height="800">
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/exemple_acf/73064-fin.png" width="500" height="800">
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/exemple_acf/10128-fin.png" width="500" height="800">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/73128-fin.png" width="500" height="800">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/47220-fin.png" width="500" height="800">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/47281-fin.png" width="500" height="800">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/73064-fin.png" width="500" height="800">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/10128-fin.png" width="500" height="800">
 # Above you can see results of each model's preditcion. All but one show variuos positive values. And they all appear to have predicted values that are fairly close to their actual values.
 
 # Conclusion
