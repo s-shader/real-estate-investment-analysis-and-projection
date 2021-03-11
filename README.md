@@ -2,7 +2,7 @@
 ## Maximizing return via timeseries modeling 
 
 # Scenario:
-### As an analyst for a real estate investment company I am tasked with coming up with finding US zipcodes to invest in using time series modeling to predict future prices.
+### As an analyst for a real estate investment company I am tasked with finding US zipcodes to invest in using time series modeling to predict future prices.
 
 # Data:
 ### CSV table of almost 15,000 us zipcodes and their median home prices from 1996-2018
