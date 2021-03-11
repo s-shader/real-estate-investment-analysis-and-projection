@@ -22,6 +22,7 @@
 
 ### All of the zip codes appear to trend upwards so I tested for stationarity.
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/stat_test_origin.png" width="600" height="600">
+
 ### All of my zip codes have dickey-fuller test values over 0.05 so I tested again afer differencing once.
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/stat_test_differ1.png" width="600" height="600">
 ### After differencing once they all passed. 
