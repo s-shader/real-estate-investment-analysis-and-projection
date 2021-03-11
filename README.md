@@ -27,7 +27,7 @@
 ### After differencing once they all passed. 
 
 ### Next I ran autocorrelation and partial autocorrelation functions on my zip codes.
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/exemple_acf/pacf.png" width="500" height="800">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/exemple_acf:pacf.png" width="500" height="800">
 ### All of the zipcodes look to have ACFs that are significant upto around 25 and PACFs upto 2.
 
 ### For my final EDA step I ran a seasonal decompasition function to look at trends and seasonality.
@@ -38,18 +38,18 @@
 ### I decided to use an autoregressive model (ar) with 1 term as my baseline. I then compared it to a moving average model with 1 term, an ARMA model, and an ARIMA model (an ARMA model diferenced once). Additionally, while all the prior models only used one term I used grid searching to automaticlly find the best terms for another ARIMA model and SARIMA model.
 ### I compared there models by thier AIC scores and RMSE's. Instead of using traditional RMSE numbers I converted them to percentages, by dividing the RMSE by the average price of homes in each zip code, to more easily compare. 
 ### To calculate this I split my data into testing data, my last 18 months of data (since my projection will be 18 months), and my training data, all but the last 18 months. I formatted the results into tables to compare.   
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/test_rmse.png" width="500" height="800">
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/train_rmse.png" width="500" height="800">
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/aics.png" width="500" height="800">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/test_rmse.png" width="600" height="600">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/train_rmse.png" width="600" height="600">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/aics.png" width="600" height="600">
 ### In the AIC and test RMSE results the autoSARIMA did best, with the exeption of 10128 in test RMSE. Becuase of this I selected this model for my final price predictions.
 
 # Final Models 
 ### Using the autoSARIMA model I predicted the price of homes in each zip code 18 months out.
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/73128-fin.png" width="500" height="800">
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/47220-fin.png" width="500" height="800">
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/47281-fin.png" width="500" height="800">
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/73064-fin.png" width="500" height="800">
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/10128-fin.png" width="500" height="800">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/73128-fin.png" width="800" height="600">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/47220-fin.png" width="800" height="600">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/47281-fin.png" width="800" height="600">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/73064-fin.png" width="800" height="600">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/10128-fin.png" width="800" height="600">
 # Above you can see results of each model's preditcion. All but one show variuos positive values. And they all appear to have predicted values that are fairly close to their actual values.
 
 # Conclusion
