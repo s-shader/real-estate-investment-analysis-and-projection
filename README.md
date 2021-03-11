@@ -25,14 +25,17 @@
 
 ### All of my zip codes have dickey-fuller test values over 0.05 so I tested again afer differencing once.
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/stat_test_differ1.png" width="600" height="600">
+
 ### After differencing once they all passed. 
 
 ### Next I ran autocorrelation and partial autocorrelation functions on my zip codes.
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/exemple_acf:pacf.png" width="500" height="800">
+
 ### All of the zipcodes look to have ACFs that are significant upto around 25 and PACFs upto 2.
 
 ### For my final EDA step I ran a seasonal decomposition function to look at trends and seasonality.
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/example-seasonal_decomp.png" width="500" height="800">
+
 ### There appears to be a clear seasonal trend within each year. And, again, we see an upward trend.
 
 # Initial Models
