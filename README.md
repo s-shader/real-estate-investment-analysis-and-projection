@@ -7,7 +7,7 @@
 # Data:
 ### CSV table of almost 15,000 US zip codes and their median home prices from 1996-2018.
 ### Each zip code contains, in addition to historical prices: it's city, state, metro area, county, and size rank. 
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/data_over.png" width="600" height="220">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/data_over.png" width="800" height="220">
 
 # EDA
 ### I started by focusing my analysis on less risky investments. I decided to use performance during the Great Recession as a proxy for risk. I created a variable called recession_return, sorted the data by recession_return, and made the top 5 results into a new data frame.
