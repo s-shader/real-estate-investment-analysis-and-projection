@@ -18,7 +18,7 @@
 * Converted dates to datetime
 * Changed the zip codes (columns) to strings
 ### With the data in the proper form I took a look...
-<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/price_graph.png" width="600" height="400">
+<img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/price_graph.png" width="800" height="400">
 
 ### All of the zip codes appear to trend upwards so I tested for stationarity.
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/stat_test_origin.png" width="600" height="600">
