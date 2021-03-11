@@ -1,4 +1,4 @@
-# real-estat-investment-analysis-and-projection
+# real-estate-investment-analysis-and-projection
 ## Maximizing return via timeseries modeling 
 
 # Scenario:
