@@ -45,6 +45,7 @@
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/test_rmse.png" width="600" height="600">
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/train_rmse.png" width="600" height="600">
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/aics.png" width="600" height="600">
+
 ### In the AIC and test RMSE results the autoSARIMA did best, with the exeption of 10128 in test RMSE. Becuase of this I selected the autoSARIMA model for my final price predictions.
 
 # Final Models 
@@ -54,6 +55,7 @@
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/47281-fin.png" width="800" height="600">
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/73064-fin.png" width="800" height="600">
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/10128-fin.png" width="800" height="600">
+
 # Above you can see results of each model's preditcion. All but one show variuos positive values. And they all appear to have predicted values that are fairly close to their actual values.
 
 # Conclusion
