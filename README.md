@@ -56,7 +56,7 @@
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/73064-fin.png" width="800" height="600">
 <img src="https://github.com/s-shader/real-estat-investment-analysis-and-projection/blob/main/mod-pictures/10128-fin.png" width="800" height="600">
 
-# Above you can see results of each model's preditcion. All but one show variuos positive values. And they all appear to have predicted values that are fairly close to their actual values.
+### Above you can see results of each model's preditcion. All but one show variuos positive values. And they all appear to have predicted values that are fairly close to their actual values.
 
 # Conclusion
 ### My final models predict 47281 (Vallonia, Indiana) and 73064 (Mustang, Oklahoma) to have the best returns around 4%. Given the national average 18 month return of 5.2% this is a bit low but given my focus on lower risk investments this could make sense for more risk averse investors. Additionally, 10128 (New York City, New York) is expected to show a loss in this period so investors should avoid investing there. On a final note, risk averse investors looking to invest across multiple zip codes might consider investing in 47220 (Brownstown, Indiana) given it's lower but still positve return.
