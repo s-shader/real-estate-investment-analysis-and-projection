@@ -58,3 +58,4 @@
 # Future work
 ### Given my focus on lower risk investing it is worth analyzing how these zipcodes did during of economic down turns to confirm that they are low risk. I would also like to look at other zipcodes that did well during the Great Recession to see if they potentially offer better returns, lower risk, or simply to diversify. It is also worth looking into how using leverage/debt might affect expected returns for the less risk averse. And finnally, adding exogenous variables could help imporove my model's fit and make better predictions.
    
+
